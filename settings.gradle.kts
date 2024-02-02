@@ -11,6 +11,11 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+    versionCatalogs {
+        create("common") {
+            from(files("gradle/common.versions.toml"))
+        }
+    }
 }
 
 rootProject.name = "SPMTest"

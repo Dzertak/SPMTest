@@ -1,0 +1,12 @@
+[versions]
+library-group = "com.dzertak.spmtest"
+library-version = "1.0.2"
+kotlin = "1.9.21"
+
+[libraries]
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-common", version.ref = "kotlin" }
+
+[plugins]
+
+[bundles]
+
